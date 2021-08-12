@@ -1,0 +1,212 @@
+body,h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family:'Work Sans', sans-serif;;
+}
+img{
+    max-width: 100%;
+}
+/* Header Section */
+.jon-header span {
+    color: #fff;
+    background: #6278df;
+    font-size: 32px;
+    text-align: center;
+    padding: 5px 11px;
+    border-radius: 10px;
+}
+.jon-header .navbar-brand {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/* Slider Section */
+.slider-section{
+    background: url(https://i.ibb.co/r0JphkC/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+.slider-section h4 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.slider-section h2 {
+    font-size: 52px;
+    margin-bottom: 40px;
+}
+.slider-caption .form-control {
+	padding: 15px 25px;
+	font-size: 25px;
+}
+.slider-caption .btn {
+	font-size: 25px;
+	padding: 15px 50px;
+	font-weight: 500;
+	background: #5ba533;
+    color: #fff;
+    border-radius: 10px;
+}
+/* Number Section */
+.number-content-item{}
+.number-content-item .h2{
+    font-size: 45px;
+}
+/*About Section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-section-left{}
+.about-section-left {
+	padding: 100px 0;
+}
+.about-section-left p {
+	line-height: 1.2cm;
+	font-size: 26px;
+}
+/* Feature Section */
+.feature-item {
+	height: 300px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223,0.3);
+}
+.left-item-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-item-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -86px;
+}
+.right-text-sec{
+    width: 60%;
+    padding: 25px;
+}
+/* Portfolio Section */
+.portfolio-section{}
+.portfolio-item{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Pricing Table Section */
+.pricing-table-section{}
+.section-main-bg{
+    background: #f7f9ff; 
+}
+.pricing-item{
+    padding: 50px;
+    background: #fff;
+    box-shadow: 4px 4px 30px 0 rgba(92, 128, 223,.4);
+}
+.pricing-item h1{
+
+}
+.pricing-item p {
+	color: #777;
+	font-size: 20px;
+}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.pricing-item ul li {
+	font-size: 25px;
+	color: #767676;
+}
+.pricing-item ul li span {
+	display: inline-block;
+	color: #6278df;
+	font-size: 26px;
+	width: 29px;
+}
+
+.pricing-item-button{
+
+}
+.pricing-item-button a {
+    box-shadow: 4px 4px 30px 0 rgba(92, 128, 223,.4);
+    border-color: #6278df;
+}
+/* Testimonial Section */
+.author-info {
+	width: 200px;
+	margin: auto;
+}
+.fas.fa-quote-left {
+	font-size: 100px;
+	color: #e7e7e7;
+}
+.author-info img {
+	width: 80px;
+	margin: auto;
+	margin-right: 16px;
+}
+.user-details {
+	text-align: left;
+}
+/* About Section */
+.about-section{}
+.about-section .lead{
+    font-size: 18px;
+    line-height: 1.9rem;
+}
+
+
+.about-item{
+    margin-top: 120px;
+}
+.about-item .card {
+	box-shadow: 3px 3px 25px 0 rgba(98, 120, 223, .4);
+}
+.about-item .card img {
+    width: 125px;
+    margin: auto;
+	margin-top: -66px;
+	margin-left: 16px;
+}
+.about-item .card-body{}
+.about-item .card-title{}
+.about-item .card-subtitle{}
+.about-item .card-text{}
+
+
+/* Content-Section */
+.content-section{}
+.content-section .card{
+    box-shadow: 3px 3px 25px 0 rgba(98, 120, 223, .4);
+}
+
+
+.footer p {
+	font-size: 25px;
+}
